@@ -8,12 +8,12 @@ module.exports = {
     },
     test_settings: {
         default: {
-            selenium_host: '172.17.0.2',
+            selenium_host: 'localhost',
             webdriver: {
                 server_path: chromedriver.path,
                 start_process: false
             },
-            launch_url: 'http://172.17.0.1:3000',
+            launch_url: 'http://localhost:3000',
             globals: {},
             desiredCapabilities: {
                 browserName: 'chrome',
