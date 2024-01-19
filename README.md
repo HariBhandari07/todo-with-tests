@@ -1,15 +1,24 @@
-This is a basic todo react app.
-Run `yarn install` inside project directory to install the dependencies.
+This Repo is a complimentary resource for my blog post [CodeceptJs Setup & BDD](https://dev.to/jankaritech/codeceptjs-setup-bdd-4i9e)
+
+This is a todo React app, but the purpose of this repo is to setup and demonstrate acceptance tests using [Codecept js](https://codecept.io/)
 
 ## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
+Browse inside project directory
+```
+cd todo-with-tests
+```
+Install dependencies
+```bash
+yarn install
+```
+Run development server
+```bash
+yarn start
+```
+This runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Run acceptance tests
-`yarn acceptance-tests`
-
+Run acceptance tests
+```bash
+yarn acceptance-tests
+```
